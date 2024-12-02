@@ -1,0 +1,90 @@
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+/* Introdução e Importância */
+.introducao, .importancia {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 900px;
+}
+
+.introducao img, .importancia img {
+    max-width: 100%;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+/* Chamada para ação */
+.chamada-acao {
+    background-color: #e6f7ff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.chamada-acao ol {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Estilo geral do menu */
+nav ul {
+    list-style: none; /* Remove marcadores */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens na horizontal */
+    background-color: #0056b3; /* Cor de fundo do menu */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Estilo dos itens do menu */
+nav ul li {
+    margin: 0;
+}
+
+/* Links do menu */
+nav ul li a {
+    display: block; /* Permite clicar em todo o bloco */
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Cor do texto */
+    padding: 15px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho do texto */
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Efeito hover (ao passar o mouse) */
+nav ul li a:hover {
+    background-color: #003f7f; /* Cor de fundo no hover */
+    color: #f9f9f9; /* Cor do texto no hover */
+}
+
+/* Botão selecionado (ativo) */
+nav ul li a.active {
+    background-color: #001f4d; /* Cor de fundo do botão ativo */
+    font-weight: bold; /* Texto em negrito */
+}
